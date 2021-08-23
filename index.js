@@ -73,4 +73,7 @@ export class DialogFlowWebHook {
     return this;
   }
 
+  completeResponse() {
+    return this.fulfilmentRequestPayload;
+  }
 }
